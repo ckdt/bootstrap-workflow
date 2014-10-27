@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     less: {
       development:{
         files:{
-          "public/style.css":"src/less/bootstrap.less"
+          "public/css/style.css":"src/less/bootstrap.less"
         }
       }
     },
