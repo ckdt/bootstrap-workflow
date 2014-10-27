@@ -881,7 +881,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -6162,11 +6162,41 @@ button.close {
     display: none !important;
   }
 }
+.stappen {
+  margin-bottom: 200px;
+}
+.stappen h2 {
+  margin-bottom: 80px;
+}
 .step {
+  padding: 10px 20px;
+  min-height: 150px;
+  color: #56a258;
+  /*@media screen and (max-width: 767px){};*/
+}
+.step p {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+.stepnumber {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #56a258;
+  margin: 15px auto;
+  border-radius: 50%;
+}
+.stepnumber h2 {
+  line-height: 0;
+  text-align: center;
+}
+.box {
   border-radius: 4px;
   background: #FFF;
-  padding: 10px 0;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 4px 0px 0px rgba(50, 50, 50, 0.3);
 }
-.step h2 {
-  margin: 15px 0;
+ul.local {
+  list-style-type: none;
 }
