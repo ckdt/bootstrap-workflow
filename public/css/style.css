@@ -6164,6 +6164,8 @@ button.close {
 }
 .logo {
   height: 30px;
+  position: relative;
+  bottom: 5px;
 }
 .container-fluid {
   max-width: 1440px;
@@ -6219,7 +6221,7 @@ button.close {
   position: relative;
 }
 .row.doel {
-  min-height: 200px;
+  min-height: 300px;
 }
 ul.local {
   list-style-type: none;
@@ -6261,9 +6263,21 @@ ul.landelijk img {
   position: absolute;
   bottom: 40px;
 }
-.relative {
+.absolute {
+  position: absolute;
+}
+.land {
+  bottom: 100px;
+}
+.lokaal {
+  bottom: 90px;
+  right: 0;
+}
+.doel-titel {
+  bottom: 500px;
+}
+.container.doelen {
   position: relative;
-  bottom: 300px;
 }
 .container.doelen h2 {
   text-align: center;
@@ -6279,7 +6293,7 @@ ul.landelijk img {
   background: #f7f7f7;
 }
 .container.deelnemers {
-  padding: 30px 0;
+  padding: 0 30px;
   margin-bottom: 100px;
 }
 .container.deelnemers p {
@@ -6359,6 +6373,11 @@ ul.eigenschap li {
 }
 .counter {
   background: #000;
+  color: #FFF;
+}
+.counter p {
+  margin: 0 0 0 40px;
+  font-weight: 300;
 }
 .container-fluid.nieuwsbrief {
   background: #f7f7f7;
@@ -6369,7 +6388,7 @@ ul.eigenschap li {
   height: 52px;
 }
 .container-fluid.footer {
-  height: 168px;
+  height: 282px;
   background: #D8D8D8;
 }
 .field {
@@ -6380,4 +6399,39 @@ ul.eigenschap li {
   float: left;
   margin-right: 25px;
   height: 52px;
+}
+ul.counter li {
+  display: inline;
+  background: #FFF;
+  padding: 3px 7px;
+  font-size: 4.5em;
+  font-weight: 500;
+  height: 168px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  color: #000;
+  margin-right: 8px;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 29%, #e8e8e8 49%, #bfbfbf 56%, #858585 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(29%, #f0f0f0), color-stop(49%, #e8e8e8), color-stop(56%, #bfbfbf), color-stop(100%, #858585));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f0f0f0 29%, #e8e8e8 49%, #bfbfbf 56%, #858585 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 29%, #e8e8e8 49%, #bfbfbf 56%, #858585 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #f0f0f0 29%, #e8e8e8 49%, #bfbfbf 56%, #858585 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 29%, #e8e8e8 49%, #bfbfbf 56%, #858585 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#858585', GradientType=0);
+}
+.footer-block {
+  min-width: 400px;
+  padding: 35px 0;
+  height: 100%;
+}
+.footer-block p {
+  text-align: center;
+}
+.footer-block ul {
+  text-align: center;
+}
+.footer-block ul li {
+  display: inline;
 }
